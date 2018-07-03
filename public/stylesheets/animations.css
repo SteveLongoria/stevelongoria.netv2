@@ -16,13 +16,15 @@ opacity: 0;
 .hr,
 .description,
 .contact,
-.social li {
+.social li,
+.links {
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
   animation-fill-mode: both;
 }
 
-.contact {
+.contact,
+.links {
   animation-name: bounceIn;
 }
 
@@ -146,7 +148,8 @@ opacity: 0; }
 .picture-shadow {
   animation-delay: 500ms;
 }
-.contact {
+.contact,
+.links {
   animation-delay: 600ms;
 }
 
